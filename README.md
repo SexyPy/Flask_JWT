@@ -15,7 +15,7 @@ To deploy this project run
 
 #### Get all items
 
-```http
+```bash
   GET /login
 ```
 
@@ -26,7 +26,7 @@ To deploy this project run
 
 #### Get item
 
-```http
+```bash
   GET /check_token
 ```
 
