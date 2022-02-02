@@ -90,7 +90,7 @@ def login():
                 token = jwt.encode(
                     {
                         "barcode": barcode,
-                        "expiry": datetime.utcnow() + timedelta(minutes=30),
+                        "exp": datetime.utcnow() + timedelta(minutes=30),
                     },
                     app.config["SECRET_KEY"],
                 )
