@@ -18,8 +18,6 @@ app = Flask(__name__)
 
 app.config["SECRET_KEY"] = "CHOOSE A KEY"
 
-key_cypher = app.config["SECRET_KEY"] + "2354235420"
-
 app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(minutes=10)
 CORS(app)
 
