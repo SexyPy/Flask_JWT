@@ -13,7 +13,7 @@ To deploy this project run
 
 ## API Reference
 
-#### Get all items
+#### Get Bearer
 
 ```bash
   GET /login
@@ -24,7 +24,7 @@ To deploy this project run
 | `username` | `string` | **Required**. Username of an account in the database |
 | `password` | `string` | **Required**. Password linked to the account below |
 
-#### Get item
+#### Check Bearer
 
 ```bash
   GET /check_token
